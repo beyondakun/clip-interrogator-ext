@@ -12,3 +12,4 @@ except ImportError:
 
 if needs_install:
     launch.run_pip(f"install clip-interrogator=={CI_VERSION}", "requirements for CLIP Interrogator")
+
